@@ -1,5 +1,5 @@
 {
-  "name": "p-fied",
+  "name": "@berlysia/p-fied",
   "version": "0.0.1",
   "description": "PromisiFIED asynchronous utility module.",
   "main": "lib/index.js",
