@@ -1,0 +1,12 @@
+{
+	"compilerOptions": {
+		"target": "ES6",
+		"module": "commonjs"
+	},
+	"files": [
+		"src/index.js",
+		"src/util.js",
+		"test/testlib.js",
+		"test/index.test.js"
+	]
+}

@@ -1,0 +1,41 @@
+{
+  "name": "p-fied",
+  "version": "0.0.0",
+  "description": "PromisiFIED asynchronous utility module.",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "babel src --out-dir lib",
+    "watch": "babel src --out-dir lib -w",
+    "format": "esformatter -i src/**/*.js test/**/*.js",
+    "clean": "rm -rf lib/*",
+    "test": "mocha --compilers js:espower-babel/guess test/**/*.test.js"
+  },
+  "author": "berlysia",
+  "license": "MIT",
+  "devDependencies": {
+    "babel": "^5.8.20",
+    "debug": "^2.2.0",
+    "esformatter": "^0.7.2",
+    "espower-babel": "^3.2.0",
+    "mocha": "^2.2.5",
+    "power-assert": "^0.11.0",
+    "sinon": "^1.15.4"
+  },
+  "keywords": [
+    "promise",
+    "promisified",
+    "control",
+    "loop",
+    "for",
+    "while",
+    "until",
+    "queue",
+    "priority queue",
+    "asyncronous",
+    "async"
+  ],
+  "dependencies": {
+    "@berlysia/remote-switch": "^0.1.1",
+    "priorityqueue": "^0.1.0"
+  }
+}
